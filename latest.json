@@ -6,15 +6,15 @@
     "extended_data_note": "ACWR and baselines calculated from 28 days of data",
     "capability_metrics_note": "The 'capability' block in derived_metrics contains durability trend (aggregate decoupling 7d/28d), efficiency factor trend (aggregate EF 7d/28d), HRRc trend (heart rate recovery 7d/28d), and TID comparison (7d vs 28d distribution drift). These measure HOW the athlete expresses fitness, not just load. Use these for coaching context alongside traditional load metrics. Durability and EF trend direction matters more than absolute values. HRRc is display only \u2014 higher = better parasympathetic recovery.",
     "quick_stats": {
-      "total_training_hours": 7.39,
-      "total_training_formatted": "7h23m",
-      "total_activities": 7,
-      "total_tss": 365
+      "total_training_hours": 7.72,
+      "total_training_formatted": "7h43m",
+      "total_activities": 8,
+      "total_tss": 367
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-06T17:49:18.128803",
+    "last_updated": "2026-04-06T19:04:44.445494",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.71"
@@ -40,8 +40,8 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 7.39,
-    "total_activities": 7,
+    "total_duration_decimal_hours": 7.72,
+    "total_activities": 8,
     "by_activity_type": {
       "Run": {
         "duration_decimal_hours": 6.64,
@@ -59,6 +59,12 @@
         "duration_decimal_hours": 0.75,
         "count": 1,
         "tss": 8,
+        "distance_km": 0.0
+      },
+      "Yoga": {
+        "duration_decimal_hours": 0.33,
+        "count": 1,
+        "tss": 2,
         "distance_km": 0.0
       }
     }
@@ -121,41 +127,41 @@
     "rhr_baseline_28d": 48.4,
     "latest_hrv": 42.0,
     "latest_rhr": 48,
-    "acwr": 1.26,
+    "acwr": 1.27,
     "acwr_interpretation": "optimal",
-    "monotony": 0.94,
+    "monotony": 0.95,
     "monotony_interpretation": "normal",
     "primary_sport": "run",
     "primary_sport_monotony": 0.95,
     "primary_sport_tss_7d": 357.0,
     "effective_monotony": 0.95,
     "multi_sport_detected": true,
-    "strain": 343.0,
-    "stress_tolerance": 3.6,
+    "strain": 349.0,
+    "stress_tolerance": 3.7,
     "load_recovery_ratio": 5.0,
-    "tss_7d_total": 365.0,
-    "tss_28d_total": 1158.0,
+    "tss_7d_total": 367.0,
+    "tss_28d_total": 1160.0,
     "zone_distribution_7d": {
-      "z1_hours": 4.41,
+      "z1_hours": 4.74,
       "z2_hours": 1.77,
       "z3_hours": 1.14,
       "z4_plus_hours": 0.08,
-      "total_hours": 7.4
+      "total_hours": 7.73
     },
-    "grey_zone_percentage": 15.4,
+    "grey_zone_percentage": 14.7,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
     "quality_intensity_percentage": 1.1,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
-    "polarisation_index": 0.83,
+    "polarisation_index": 0.84,
     "polarisation_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
     "hard_days_this_week": 0,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
-      "z1_seconds": 22227,
+      "z1_seconds": 23431,
       "z2_seconds": 4099,
       "z3_seconds": 298,
-      "z1_pct": 83.5,
-      "z2_pct": 15.4,
+      "z1_pct": 84.2,
+      "z2_pct": 14.7,
       "z3_pct": 1.1,
       "polarization_index": null,
       "classification": "Pyramidal"
@@ -172,12 +178,12 @@
       "sport": "run"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 68035,
+      "z1_seconds": 69239,
       "z2_seconds": 9856,
       "z3_seconds": 5017,
-      "z1_pct": 82.1,
-      "z2_pct": 11.9,
-      "z3_pct": 6.1,
+      "z1_pct": 82.3,
+      "z2_pct": 11.7,
+      "z3_pct": 6.0,
       "polarization_index": null,
       "classification": "Pyramidal"
     },
@@ -290,12 +296,12 @@
     "p_max": 783,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-06T17:49:18.127907",
+    "calculation_timestamp": "2026-04-06T19:04:44.444658",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 6,
-      "activities_7d": 7,
-      "activities_28d": 22,
+      "activities_7d": 8,
+      "activities_28d": 23,
       "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 32,
@@ -304,6 +310,50 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "i137675892",
+      "date": "2026-04-06T17:51:03",
+      "type": "Yoga",
+      "name": "Afternoon Yoga",
+      "duration_hours": 0.33,
+      "distance_km": 0.0,
+      "tss": 2,
+      "intensity_factor": 24.47451,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": 78,
+      "max_hr": 93,
+      "avg_cadence": 2.0,
+      "avg_speed": null,
+      "max_speed": null,
+      "avg_pace": null,
+      "avg_temp": 31.0,
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "work_kj": null,
+      "calories": 74,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": 0.0,
+      "feel": null,
+      "rpe": null,
+      "zone_distribution": {
+        "hr_zones": {
+          "z1_time": 1204,
+          "z2_time": 0,
+          "z3_time": 0,
+          "z4_time": 0,
+          "z5_time": 0,
+          "z6_time": 0,
+          "z7_time": 0
+        }
+      }
+    },
     {
       "id": "17999726506",
       "date": "2026-04-06T12:37:31",
@@ -717,10 +767,10 @@
     "bail_no_match": 0
   },
   "weekly_summary": {
-    "total_training_hours": 7.39,
-    "total_training_formatted": "7h23m",
-    "total_tss": 365,
-    "activities_count": 7,
+    "total_training_hours": 7.72,
+    "total_training_formatted": "7h43m",
+    "total_tss": 367,
+    "activities_count": 8,
     "avg_hrv": 56.8,
     "avg_resting_hr": 47.3
   },
