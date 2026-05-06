@@ -53,7 +53,6 @@ This document serves as a reference template for endurance athletes using the de
 
 | Goal | Target Date |
 |------|-------------|
-| [Hamburg Marathon in under 3h 30min] | [2026-04-26] |
 | [Ferropolis Triathlon in under 5h 15min] | [2026-05-31] |
 | [Maisels Funrun 10.6km in under 45min] | [2026-05-04] |
 
