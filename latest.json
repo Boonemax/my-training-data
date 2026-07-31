@@ -14,7 +14,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-30T22:46:54.857152",
+    "last_updated": "2026-07-31T00:03:31.704077",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.71"
@@ -46,17 +46,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 39.02,
-      "atl": 19.19,
-      "tsb": 19.83,
-      "ramp_rate": -7.08,
+      "ctl": 38.08,
+      "atl": 16.6,
+      "tsb": 21.48,
+      "ramp_rate": -6.91,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
-      "eftp": 258.6,
-      "w_prime": 21461,
-      "w_prime_kj": 21.5,
-      "p_max": 883,
+      "eftp": 258.3,
+      "w_prime": 21439,
+      "w_prime_kj": 21.4,
+      "p_max": 882,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -99,7 +99,7 @@
     "hrv_baseline_7d": null,
     "rhr_baseline_7d": null,
     "hrv_baseline_28d": 48.0,
-    "rhr_baseline_28d": 48.3,
+    "rhr_baseline_28d": 48.4,
     "latest_hrv": null,
     "latest_rhr": null,
     "acwr": 0.0,
@@ -115,7 +115,7 @@
     "stress_tolerance": null,
     "load_recovery_ratio": null,
     "tss_7d_total": 0,
-    "tss_28d_total": 887.0,
+    "tss_28d_total": 803.0,
     "zone_distribution_7d": {
       "z1_hours": 0.0,
       "z2_hours": 0.0,
@@ -143,13 +143,13 @@
     },
     "seiler_tid_7d_primary": null,
     "seiler_tid_28d": {
-      "z1_seconds": 22788,
-      "z2_seconds": 9012,
-      "z3_seconds": 14883,
-      "z1_pct": 48.8,
-      "z2_pct": 19.3,
-      "z3_pct": 31.9,
-      "polarization_index": 1.91,
+      "z1_seconds": 22136,
+      "z2_seconds": 7311,
+      "z3_seconds": 13307,
+      "z1_pct": 51.8,
+      "z2_pct": 17.1,
+      "z3_pct": 31.1,
+      "polarization_index": 1.97,
       "classification": "Pyramidal"
     },
     "seiler_tid_28d_primary": null,
@@ -184,7 +184,7 @@
         "classification_7d": null,
         "classification_28d": "Pyramidal",
         "pi_7d": null,
-        "pi_28d": 1.91,
+        "pi_28d": 1.97,
         "pi_delta": null,
         "drift": null,
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. Insufficient data in one or both windows."
@@ -247,43 +247,27 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 258.6,
-    "w_prime": 21461,
-    "w_prime_kj": 21.5,
-    "p_max": 883,
+    "eftp": 258.3,
+    "w_prime": 21439,
+    "w_prime_kj": 21.4,
+    "p_max": 882,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-30T22:46:54.856378",
+    "calculation_timestamp": "2026-07-31T00:03:31.703319",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
       "activities_7d": 0,
-      "activities_28d": 11,
+      "activities_28d": 10,
       "planned_workouts_7d": 0,
       "ftp_history_days": {
-        "indoor": 147,
-        "outdoor": 147
+        "indoor": 148,
+        "outdoor": 148
       }
     }
   },
   "recent_activities": [],
   "wellness_data": [
-    {
-      "date": "2026-07-24",
-      "weight_kg": null,
-      "resting_hr": null,
-      "hrv_rmssd": null,
-      "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
-      "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null
-    },
     {
       "date": "2026-07-25",
       "weight_kg": null,
@@ -366,6 +350,22 @@
     },
     {
       "date": "2026-07-30",
+      "weight_kg": null,
+      "resting_hr": null,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
+    },
+    {
+      "date": "2026-07-31",
       "weight_kg": null,
       "resting_hr": null,
       "hrv_rmssd": null,
